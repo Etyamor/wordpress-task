@@ -1,0 +1,17 @@
+/*
+Theme Name:   boostatask
+Description:  Boosta Task
+Author:       admin
+Author URL:   http://boosta-tasks.local
+Template:     twentytwenty
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  boostatask
+*/
+
+/* Write here your own personal stylesheet */
+
+svg {
+    max-width: none;
+}
