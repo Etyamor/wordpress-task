@@ -124,3 +124,9 @@ function orderby_ajax_handler(){
 
 add_action('wp_ajax_orderby', 'orderby_ajax_handler');
 add_action('wp_ajax_nopriv_orderby', 'orderby_ajax_handler');
+
+function add_query_vars_filter( $vars ) {
+  $vars[] = "subjects";
+  return $vars;
+}
+add_filter( 'query_vars', 'add_query_vars_filter' );
